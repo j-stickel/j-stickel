@@ -12,14 +12,14 @@
   </a>
 </p>
 
-I help creators and brands build stunning metaverse venues that perform beautifully under pressure. As the developer behind the **[M1D Starter Kit](https://github.com/j-stickel/decentraland-venue-starter-kit)**, I solve the complex technical challenges—from live video sync to WebGPU optimization—so you can focus on your vision. Let's build something unforgettable.
+I help creators and brands build stunning metaverse venues that perform beautifully under pressure. As the developer behind the **[M1D Starter Kit](https://github.com/j-stickel/decentraland-venue-starter-kit)**, I solve complex full-stack challenges—from live video sync to architecting the scalable cloud infrastructure that powers it—so you can focus on your vision. Let's build something unforgettable.
 
 ---
 
 - **🔭 I'm currently working on:** The M1D Hub, a cross-platform content network.
 - **🌱 I'm currently learning:** Advanced shader techniques and compute shaders.
 - **🤝 I'm looking for:** Ambitious freelance projects in the metaverse and interactive web space.
-- **💬 Ask me about:** Decentraland SDK 7, Three.js, Blender, and live streaming architecture.
+- **💬 Ask me about:** Decentraland SDK 7, **WebSockets (Socket.IO)**, **Node.js/Express**, Full-Stack System Architecture, Google Cloud (GCP) Deployment, Blender, and live streaming.
 
 ---
 
@@ -29,5 +29,9 @@ I help creators and brands build stunning metaverse venues that perform beautifu
   <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
   <img src="https://img.shields.io/badge/react-%2320232A.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React"/>
   <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"/>
+  <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=white" alt="Express.js"/>
+  <img src="https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101" alt="Socket.io"/>
+  <img src="https://img.shields.io/badge/Google%20Cloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white" alt="Google Cloud"/>
+  <img src="https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white" alt="Apache"/>
   <img src="https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white" alt="Blender"/>
 </p>
