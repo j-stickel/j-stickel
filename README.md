@@ -12,7 +12,7 @@
   </a>
 </p>
 
-I help creators and brands build stunning metaverse venues that perform beautifully under pressure. I am the creator of the **M1D Networked Guide**, a powerful toolkit for synchronized media in the metaverse. The best way to get started is with my **[Decentraland Venue Starter Kit](https://github.com/Metaone-Designs/m1d-components-starter-scene)**. I solve the complex full-stack challenges so you can focus on your vision. Let's build something unforgettable.
+I help creators and brands build stunning metaverse venues that perform beautifully under pressure. I am the creator of the **M1D Relay**, a powerful toolkit for synchronized media in the metaverse. The best way to get started is with my **[Decentraland Venue Starter Kit](https://github.com/Metaone-Designs/m1d-components-starter-scene)**. I solve the complex full-stack challenges so you can focus on your vision. Let's build something unforgettable.
 
 ---
 
