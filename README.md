@@ -1,37 +1,48 @@
-### Hi there, I'm J. Stickel 👋
+### Hi, I'm J. Stickel
 
 <p align="left"> 
   <a href="https://mrjstickel.com" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-mrjstickel.com-blue?style=for-the-badge" alt="Portfolio"/>
+    <img src="https://img.shields.io/badge/Portfolio-mrjstickel.com-0891b2?style=for-the-badge" alt="Portfolio"/>
+  </a>
+  <a href="https://www.npmjs.com/~mrjstickel" target="_blank">
+    <img src="https://img.shields.io/badge/npm-mrjstickel-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm"/>
   </a>
   <a href="mailto:contact@mrjstickel.com" target="_blank">
-    <img src="https://img.shields.io/badge/Email-contact@mrjstickel.com-red?style=for-the-badge" alt="Email"/>
-  </a>
-  <a href="https://discord.gg/FnVxT8cVd2" target="_blank">
-    <img src="https://img.shields.io/badge/Discord-Join%20the%20Community-7289DA?style=for-the-badge&logo=discord&logoColor=white" alt="Discord"/>
+    <img src="https://img.shields.io/badge/Email-contact@mrjstickel.com-EA4335?style=for-the-badge" alt="Email"/>
   </a>
 </p>
 
-I help creators and brands build stunning metaverse venues that perform beautifully under pressure. I am the creator of the **M1D Relay**, a powerful toolkit for synchronized media in the metaverse. The best way to get started is with my **[Decentraland Venue Starter Kit](https://github.com/Metaone-Designs/m1d-components-starter-scene)**. I solve the complex full-stack challenges so you can focus on your vision. Let's build something unforgettable.
+**Full-Stack Engineer** — I build complete products solo. SaaS platforms, admin systems, real-time infrastructure, and everything in between.
+
+20+ years in tech. All projects are live production systems with real users.
 
 ---
 
-- **🔭 I'm currently working on:** The M1D Hub, a cross-platform content network.
-- **🌱 I'm currently learning:** Advanced shader techniques and compute shaders.
-- **🤝 I'm looking for:** Ambitious freelance projects in the metaverse and interactive web space.
-- **💬 Ask me about:** Decentraland SDK 7, **WebSockets (Socket.IO)**, **Node.js/Express**, Full-Stack System Architecture, Google Cloud (GCP) Deployment, Blender, and live streaming.
+### What I've Built
+
+**[thestatic.tv](https://thestatic.tv)** — Production streaming platform with 126 API endpoints, GCP video infrastructure, real-time economy system, crypto payments, and admin dashboards. Solo build.
+
+**[@thestatic-tv/dcl-sdk](https://www.npmjs.com/package/@thestatic-tv/dcl-sdk)** — Published npm package for Decentraland integration. Visitor analytics, watch metrics, real-time sync.
+
+**[M1D HQ](https://play.decentraland.org/?position=128%2C-123)** — Live metaverse venue with custom 3D models, scene animations, and remote admin controls.
 
 ---
 
-### My Tech Stack
+### Tech Stack
 
 <p align="left">
-  <img src="https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
-  <img src="https://img.shields.io/badge/react-%2320232A.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React"/>
-  <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"/>
-  <img src="https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=white" alt="Express.js"/>
-  <img src="https://img.shields.io/badge/Socket.io-black?style=for-the-badge&logo=socket.io&badgeColor=010101" alt="Socket.io"/>
-  <img src="https://img.shields.io/badge/Google%20Cloud-%234285F4.svg?style=for-the-badge&logo=google-cloud&logoColor=white" alt="Google Cloud"/>
-  <img src="https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white" alt="Apache"/>
-  <img src="https://img.shields.io/badge/blender-%23F5792A.svg?style=for-the-badge&logo=blender&logoColor=white" alt="Blender"/>
+  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase"/>
+  <img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" alt="GCP"/>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"/>
+  <img src="https://img.shields.io/badge/Polygon-8247E5?style=for-the-badge&logo=polygon&logoColor=white" alt="Polygon"/>
+  <img src="https://img.shields.io/badge/Blender-F5792A?style=for-the-badge&logo=blender&logoColor=white" alt="Blender"/>
 </p>
+
+---
+
+### Available For
+
+Contract work and select opportunities. [Get in touch →](mailto:contact@mrjstickel.com)
+
