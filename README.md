@@ -1,48 +1,43 @@
-### Hi, I'm J. Stickel
+### Hi, I'm Joseph Stickel (MrJStickel)
 
-<p align="left"> 
+<p align="left">
   <a href="https://mrjstickel.com" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-mrjstickel.com-0891b2?style=for-the-badge" alt="Portfolio"/>
   </a>
-  <a href="https://www.npmjs.com/~mrjstickel" target="_blank">
-    <img src="https://img.shields.io/badge/npm-mrjstickel-CB3837?style=for-the-badge&logo=npm&logoColor=white" alt="npm"/>
+  <a href="https://www.linkedin.com/in/mrjstickel" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-mrjstickel-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
   </a>
   <a href="mailto:contact@mrjstickel.com" target="_blank">
     <img src="https://img.shields.io/badge/Email-contact@mrjstickel.com-EA4335?style=for-the-badge" alt="Email"/>
   </a>
 </p>
 
-**Full-Stack Engineer** — I build complete products solo. SaaS platforms, admin systems, real-time infrastructure, and everything in between.
-
-20+ years in tech. All projects are live production systems with real users.
+**AI Systems Engineer** — I design and ship production AI systems end to end: RAG pipelines, agentic assistants, fine-tuned models, and the multi-provider infrastructure to run them. Solo, in production.
 
 ---
 
-### What I've Built
+### Selected work
 
-**[thestatic.tv](https://thestatic.tv)** — Production streaming platform with 126 API endpoints, GCP video infrastructure, real-time economy system, crypto payments, and admin dashboards. Solo build.
+**Architecture Zero** — a self-hosted, **white-label AI platform** (one core, many branded instances). Multi-provider inference (Claude / OpenAI / local Ollama), RAG with hybrid retrieval + reranking, agentic tool use, JWT auth + RBAC, and an embeddable chat widget. It runs in production as the assistant on **mrjstickel.com**.
 
-**[@thestatic-tv/dcl-sdk](https://www.npmjs.com/package/@thestatic-tv/dcl-sdk)** — Published npm package for Decentraland integration. Visitor analytics, watch metrics, real-time sync.
+**Fine-tuned my own code model** — QLoRA on Qwen2.5-Coder (rank 64, 4-bit base) trained on my own codebase, on a single consumer GPU.
 
-**[M1D HQ](https://play.decentraland.org/?position=128%2C-123)** — Live metaverse venue with custom 3D models, scene animations, and remote admin controls.
+**[JobTrue](https://jobtrue.ai)** — an AI job-search product, **live** with Stripe billing: an honest 1–10 fit score, résumé tailoring, and cover-letter generation on the Claude API.
 
----
+**[thestatic.tv](https://thestatic.tv)** — a production streaming platform I built solo (Next.js + GCP video infrastructure + a real-time token economy + crypto payments) — the full-stack systems depth under the AI work.
 
-### Tech Stack
-
-<p align="left">
-  <img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js"/>
-  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
-  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" alt="Firebase"/>
-  <img src="https://img.shields.io/badge/Google%20Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" alt="GCP"/>
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js"/>
-  <img src="https://img.shields.io/badge/Polygon-8247E5?style=for-the-badge&logo=polygon&logoColor=white" alt="Polygon"/>
-  <img src="https://img.shields.io/badge/Blender-F5792A?style=for-the-badge&logo=blender&logoColor=white" alt="Blender"/>
-</p>
+More, with write-ups, at **[mrjstickel.com](https://mrjstickel.com)**.
 
 ---
 
-### Available For
+### Tech
 
-Contract work and select opportunities. [Get in touch →](mailto:contact@mrjstickel.com)
+**AI / ML** &nbsp;Python · FastAPI · RAG (ChromaDB, hybrid vector + BM25 reranking) · Ollama · Claude & OpenAI APIs · QLoRA / PEFT fine-tuning · local GPU inference
 
+**Full-stack** &nbsp;Next.js · React · TypeScript · Node.js · Firebase · GCP · Docker
+
+---
+
+### Open to
+
+**AI / ML engineer roles** — building production AI systems. &nbsp;[Get in touch →](mailto:contact@mrjstickel.com)
