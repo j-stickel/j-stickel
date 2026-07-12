@@ -4,7 +4,7 @@
   <a href="https://mrjstickel.com" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-mrjstickel.com-0891b2?style=for-the-badge" alt="Portfolio"/>
   </a>
-  <a href="https://jobtrue.ai/u/mrjstickel/default-resume" target="_blank">
+  <a href="https://jobtrue.ai/u/mrjstickel/applied-ai-engineer" target="_blank">
     <img src="https://img.shields.io/badge/Resume-jobtrue.ai-16a34a?style=for-the-badge" alt="Resume"/>
   </a>
   <a href="https://www.linkedin.com/in/mrjstickel" target="_blank">
@@ -50,4 +50,4 @@ Each write-up is a real production system with measured results - read them in o
 
 ### Open to
 
-**AI / ML engineer roles** - building and operating production AI systems - and **private AI consulting** (your data, your brand, your infrastructure). &nbsp;[Resume](https://jobtrue.ai/u/mrjstickel/default-resume) · [Get in touch](mailto:contact@mrjstickel.com)
+**AI / ML engineer roles** - building and operating production AI systems - and **private AI consulting** (your data, your brand, your infrastructure). &nbsp;[Resume](https://jobtrue.ai/u/mrjstickel/applied-ai-engineer) · [Get in touch](mailto:contact@mrjstickel.com)
