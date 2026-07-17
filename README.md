@@ -15,7 +15,7 @@
   </a>
 </p>
 
-**AI Systems Engineer** - I design, ship, and operate production AI systems end to end: RAG pipelines, agentic assistants, fine-tuned models, and the platforms to run them. Solo, in production, measured. Retrieval recall on my flagship system: driven from 40% to a stamped 100% by a continuous eval harness.
+**AI Systems Engineer** - I design, ship, and operate production AI systems end to end: RAG pipelines, agentic assistants, fine-tuned models, and the platforms to run them. Solo, in production, measured. Retrieval recall on my flagship system: driven from 40% to a stamped 100% by a continuous eval harness - which now also judges every answer for faithfulness to its sources (100% on the latest full run).
 
 ---
 
@@ -36,11 +36,17 @@ Each write-up is a real production system with measured results - read them in o
 - **[thestatic.tv](https://thestatic.tv)** - a Web3 live-streaming platform built solo: 160+ API routes, GCP Livestream video, a real-time token economy, on-chain payments - the full-stack depth under the AI work.
 - **[@thestatic-tv/dcl-sdk](https://www.npmjs.com/package/@thestatic-tv/dcl-sdk)** - a published TypeScript SDK for Decentraland scene integration.
 
+### Now (updated 2026-07-16)
+
+- **Answer-trust layer:** every eval answer is LLM-judged for correctness AND faithfulness to the context it actually saw - latest full run: 98% recall, 85.5% correct, 100% faithful. Correct and grounded are different failures; I measure both.
+- **The complete trust map:** a live panel tracking 41 industry trust/eval capabilities (guardrails, injection gates, judge reliability, freshness) with honest statuses - measured, built, or not yet. No number renders unless it derives from a live source.
+- **Boring on purpose:** nightly encrypted backups to two destinations, plus a nightly restore drill that rehearses recovery by machinery. An untested backup is a hope.
+
 ---
 
 ### Tech
 
-**AI / LLM** &nbsp;Python · FastAPI · RAG (ChromaDB, hybrid vector + BM25, cross-encoder reranking) · retrieval eval harnesses · agentic tool use · QLoRA / PEFT fine-tuning · Claude / OpenAI / Ollama multi-provider routing · local inference (7B to 30B-class on RTX 5090/3090)
+**AI / LLM** &nbsp;Python · FastAPI · RAG (ChromaDB, hybrid vector + BM25, cross-encoder reranking) · retrieval + answer-quality eval harnesses (LLM-as-judge: correctness, faithfulness) · agentic tool use · QLoRA / PEFT fine-tuning · Claude / OpenAI / Ollama multi-provider routing · local inference (7B to 30B-class on RTX 5090/3090)
 
 **Full-stack** &nbsp;Next.js · React · TypeScript · React Native / Expo · Node.js · Firebase · Stripe
 
