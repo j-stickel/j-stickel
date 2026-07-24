@@ -15,7 +15,7 @@
   </a>
 </p>
 
-**AI Systems Engineer** - I design, ship, and operate production AI systems end to end: RAG pipelines, agentic assistants, fine-tuned models, and the platforms to run them. Solo, in production, measured. Retrieval recall on my flagship system: driven from 40% to a measured 98% floor on a frozen regression set - and the LLM judge that grades every answer is itself calibrated three ways (planted errors 15/15, human-adjudicated kappa 0.61, second-lab agreement 92.7%). I do not just publish numbers; I grade the grader behind them.
+**AI Systems Engineer** - I design, ship, and operate production AI systems end to end: RAG pipelines, agentic assistants, fine-tuned models, and the platforms to run them. Solo, in production, measured. Retrieval recall on my flagship system: driven from 40% to a measured 98% floor on a frozen regression set - and the LLM judge that grades every answer is itself calibrated four ways (planted errors 16/16, human-adjudicated kappa 0.61, second-lab agreement 92.7%, and an independently-authored second harness - RAGAS - agreeing 98.2% at the pass/fail boundary). I do not just publish numbers; I grade the grader behind them.
 
 ---
 
@@ -28,7 +28,7 @@ Each write-up is a real production system with measured results - read them in o
 1. **[Hybrid RAG + Reranker](https://mrjstickel.com/projects/hybrid-rag)** - why a chatbot lies, and how retrieval gets fixed: vector search + a from-scratch BM25 + a local cross-encoder, recall 40% -> 93%, eval-driven.
 2. **[RAG Ingestion Intelligence](https://mrjstickel.com/projects/rag-ingestion)** - when retrieval fails, fix the corpus: a stage-by-stage retrieval debugger, three measured rounds, 88% -> 100% recall with 44 of 50 hits at rank 1.
 3. **[Context Engineering](https://mrjstickel.com/projects/context-engineering)** - keeping a RAG corpus honest: docs-as-code, single source of truth, and drift detection on both the write side and the read side. A stale source is a confident liar.
-4. **[Grade the Grader](https://mrjstickel.com/projects/grade-the-grader)** - calibrating the LLM judge every other number depends on: planted errors, a human baseline, a second lab - all three found real instrument defects, fixed and re-measured.
+4. **[Grade the Grader](https://mrjstickel.com/projects/grade-the-grader)** - calibrating the LLM judge every other number depends on: planted errors, a human baseline, a second lab, and an independently-authored second harness (RAGAS) - all four found real instrument defects, fixed and re-measured.
 5. **[The External Stress Test](https://mrjstickel.com/projects/eval-stress-test)** - twelve adversarial demands for artifacts that do not exist, zero fabrications - and a demanded live eval run that caught a real regression, fixed and re-measured the same night.
 6. **[AI Security](https://mrjstickel.com/projects/ai-security)** - threat-modeling an AI that holds real data and can act: OWASP Web + LLM Top 10, a real broken-access-control bug found and fixed, CI security gates on every push.
 7. **[Multi-Tier Access Isolation](https://mrjstickel.com/projects/multi-tier-isolation)** - proving a tiered AI cannot be talked into leaking: an adversarial cohort measured 3/11 -> 11/11 while owner recall held 100%. The corpus-diffusion lesson.
@@ -48,9 +48,9 @@ Each write-up is a real production system with measured results - read them in o
 - **[TheStatic.TV Agent](https://ai.thestatic.tv)** - that platform's public AI agent, on the same Architecture Zero core - open to guests, and reachable in-world inside the TheStatic HQ Decentraland scene.
 - **[@thestatic-tv/dcl-sdk](https://www.npmjs.com/package/@thestatic-tv/dcl-sdk)** - a published TypeScript SDK for Decentraland scene integration.
 
-### Now (updated 2026-07-23)
+### Now (updated 2026-07-24)
 
-- **Grading the grader:** the LLM judge behind every trust number is now calibrated three independent ways - planted-error suite 15/15, human-adjudicated agreement 90% (kappa 0.61), and a second judge from a different lab at 92.7% agreement with all 8 disagreements hand-adjudicated. All three found real instrument defects; all are fixed and regression-tested. Next: a second independently-authored harness and a locked holdout set.
+- **Grading the grader:** the LLM judge behind every trust number is now calibrated four independent ways - planted-error suite 16/16, human-adjudicated agreement 90% (kappa 0.61), a second judge from a different lab at 92.7% agreement with all 8 disagreements hand-adjudicated, and a second independently-authored harness (RAGAS) re-grading the same stored run with the same judge model: 98.2% agreement at the pass/fail boundary, its sole disagreement an already-known defect row. Re-grading after an instrument fix moved exactly one verdict - the one it targeted (kappa 0.930, zero collateral). Next: a locked holdout set.
 - **Isolation you can measure:** multi-tier access isolation driven 3/11 -> 11/11 on an adversarial cohort (injection, confabulation bait, social engineering) while owner recall held at 100% - the write-up covers why classifying one folder barely moved the number.
 - **Six providers, one adapter:** a multi-provider registry (Anthropic, OpenAI, Gemini, Mistral, Groq, xAI, DeepSeek, plus local Ollama) where adding a provider is config, not code - built to pin a cross-provider judge, kept because customers pick their own model.
 
