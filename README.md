@@ -15,7 +15,9 @@
   </a>
 </p>
 
-**AI Systems Engineer** - I design, ship, and operate production AI systems end to end: RAG pipelines, agentic assistants, fine-tuned models, and the platforms to run them. Solo, in production, measured. Retrieval recall on my flagship system: driven from 40% to a measured 98% floor on a frozen regression set - and the LLM judge that grades every answer is itself calibrated five ways (planted errors 30/30, human-adjudicated kappa 0.61, second-lab agreement 92.7%, an independently-authored second harness - RAGAS - agreeing 98.2% at the pass/fail boundary, and a locked holdout exam written by an outside model: my measured overfit to my own test is 6.3 points, published). I do not just publish numbers; I grade the grader behind them.
+**AI Systems Engineer.** I build production AI systems and run them: RAG pipelines, agentic assistants, fine-tuned models, and the infrastructure underneath.
+
+The question behind all of it: how do you know an AI's numbers are true? My flagship system's retrieval recall is a measured 98%, up from 40% - but the number I'm proudest of is less flattering: the judge that grades every answer is itself audited, and that audit caught my system overfitting to my own tests by 6.3 points. The gap is published and recomputed on every run. Grade the grader; show the receipts.
 
 ---
 
@@ -23,7 +25,7 @@
 
 <!-- This list mirrors mrjstickel-portfolio/src/data/projects.ts (the canonical case-study list + order) - sync it when that file changes. -->
 
-Each write-up is a real production system with measured results - read them in order and they build on each other:
+One production system, built layer by layer. Every write-up below starts with something breaking - a chatbot lying, a judge grading its own homework, a VM freezing at 3am - and ends with a number proving it's fixed. It's all one codebase: Architecture Zero, four live white-label instances. Read them in order; they compound.
 
 1. **[Hybrid RAG + Reranker](https://mrjstickel.com/projects/hybrid-rag)** - why a chatbot lies, and how retrieval gets fixed: vector search + a from-scratch BM25 + a local cross-encoder, recall 40% -> 93%, eval-driven.
 2. **[RAG Ingestion Intelligence](https://mrjstickel.com/projects/rag-ingestion)** - when retrieval fails, fix the corpus: a stage-by-stage retrieval debugger, three measured rounds, 88% -> 100% recall with 44 of 50 hits at rank 1.
