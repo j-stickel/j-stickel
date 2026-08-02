@@ -17,7 +17,7 @@
 
 **AI Systems Engineer.** I build production AI systems and run them: RAG pipelines, agentic assistants, fine-tuned models, and the infrastructure underneath.
 
-The question behind all of it: how do you know an AI's numbers are true? My flagship system's retrieval recall measured 98% on the exam it was tuned against - and 91.6% on the harder, outside-authored exam that replaced it (2026-07-30). Both numbers are published, because the judge that grades every answer is itself audited, and that audit puts the overfit to my own tests at 11.3 points - a gap that has widened every time the exam got fairer, which is exactly the early warning it exists to give. Grade the grader; show the receipts.
+The question behind all of it: how do you know an AI's numbers are true? My flagship system's retrieval recall measured 98% on the exam it was tuned against - and 25 of 32 on the harder, outside-authored holdout that no fix was ever tuned toward (2026-07-30). Both numbers are published, because the judge that grades every answer is itself audited, and that audit puts the overfit to my own tests at 11.3 points - a gap that has widened every time the exam got fairer, which is exactly the early warning it exists to give. Grade the grader; show the receipts.
 
 ---
 
