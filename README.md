@@ -27,6 +27,8 @@ The question behind all of it: how do you know an AI's numbers are true? My flag
 
 One production system, built layer by layer. Every write-up below starts with something breaking - a chatbot lying, a judge grading its own homework, a VM freezing at 3am - and ends with a number proving it's fixed. It's all one codebase: Architecture Zero, four live white-label instances. Read them in order; they compound.
 
+**Start with the spine: [Justified Confidence - The Scoreboard](https://mrjstickel.com/projects/justified-confidence)** - every reliability layer the field names, the failure each one prevents, and the measured number where one exists - including the published tuned-vs-holdout gap and an honest deficit section of what is not built. Each study below is the long version of one of its cells.
+
 1. **[Hybrid RAG + Reranker](https://mrjstickel.com/projects/hybrid-rag)** - why a chatbot lies, and how retrieval gets fixed: vector search + a from-scratch BM25 + a local cross-encoder, recall 40% -> 93%, eval-driven.
 2. **[RAG Ingestion Intelligence](https://mrjstickel.com/projects/rag-ingestion)** - when retrieval fails, fix the corpus: a stage-by-stage retrieval debugger, three measured rounds, 88% -> 100% recall with 44 of 50 hits at rank 1.
 3. **[Context Engineering](https://mrjstickel.com/projects/context-engineering)** - keeping a RAG corpus honest: docs-as-code, single source of truth, and drift detection on both the write side and the read side. A stale source is a confident liar.
