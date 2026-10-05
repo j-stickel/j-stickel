@@ -23,7 +23,7 @@ The question behind all of it: how do you know an AI's numbers are true? My flag
 
 ### The work (case studies, in learning order)
 
-<!-- This list mirrors mrjstickel-portfolio/src/data/projects.ts (the canonical case-study list + order) - sync it when that file changes. -->
+<!-- This list mirrors the SET of case studies in mrjstickel-portfolio/src/data/projects.ts - sync the set when that file changes. The ORDER here is the learning order, on purpose (Cheap Only If Free sits right after Hybrid RAG as its sequel); it said "list + order" until 2026-10-05. -->
 
 One production system, built layer by layer. Every write-up below starts with something breaking - a chatbot lying, a judge grading its own homework, a VM freezing at 3am - and ends with a number proving it's fixed. It's all one core: Architecture Zero, run as live white-label instances - and the core is now [open source](https://github.com/architecture-zero/architecture-zero). Read them in order; they compound.
 
