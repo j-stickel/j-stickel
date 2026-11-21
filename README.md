@@ -15,7 +15,7 @@
   </a>
 </p>
 
-**AI Systems Engineer.** I build production AI systems and run them: RAG pipelines, agentic assistants, fine-tuned models, and the infrastructure underneath.
+**AI Systems Engineer.** I build AI systems you can trust, from the data to the servers: RAG pipelines, agentic assistants, fine-tuned models, and the infrastructure underneath.
 
 The question behind all of it: how do you know an AI's numbers are true? My flagship system cleared a bar written down before the results existed (2026-10-24): correctness 88.3 on the exam it was tuned against and 76.6 on a locked, outside-authored holdout no fix was ever tuned toward, an overfit gap of 11.8 points against a line of 18, faithfulness 98.7, and retrieval recall 90.2% (55 of 61) - every gating row on one pair of runs held at one corpus fingerprint, graded by a judge that is itself audited. The margins are published with it: recall cleared by one question, one pass's holdout by one answer, that pass's gap by 0.3. The bar changed once, in writing, before that pair ran: three questions ask about documents I deleted on purpose, and they now pass only when the answer says the information is gone - under the bar as first written, recall would have missed. The whole system, taken apart layer by layer, is the flagship write-up: [Anatomy of a Trustworthy Answer](https://mrjstickel.com/projects/anatomy-of-a-trustworthy-answer). Numbers that only ever go up are marketing. Grade the grader; show the receipts.
 
@@ -154,4 +154,4 @@ One production system, built layer by layer. Every write-up below starts with so
 
 ### Open to
 
-**AI / ML engineer roles** - building and operating production AI systems - and **private AI consulting** (your data, your brand, your infrastructure). &nbsp;[Resume](https://jobtrue.ai/u/mrjstickel/applied-ai-engineer) · [Get in touch](mailto:contact@mrjstickel.com)
+**AI roles, consulting and the right projects.** &nbsp;[Resume](https://jobtrue.ai/u/mrjstickel/applied-ai-engineer) · [Get in touch](mailto:contact@mrjstickel.com)
